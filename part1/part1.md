@@ -40,4 +40,15 @@ E) student.courseLoad[0];
     D) False. === is a strict equality check which means JS does not do the usual type conversion. Since '2' and 2 are of different types, they are not exactly the same so this evaluates to false.  
     E) False. JS converts true to its numeric value of 1. So, this isequality is the same as 1 == 2 which is false.  
     F) True. Since the Boolean(2) returns true since 2 is not an "empty" value. This equality is asking if true strictly equals true which is true.  
-15) "==" is a regular equality which means that JavaScript is going to convert the values being compared to their numeric equivalents. "===" is a strict equality which means that JavaScript compares the values without doing any type conversion. "===" only returns true if the two quantities are of the same type and value.   
+15) "==" is a regular equality which means that JavaScript is going to convert the values being compared to their numeric equivalents. "===" is a strict equality which means that JavaScript compares the values without doing any type conversion. "===" only returns true if the two quantities are of the same type and value.  
+16) [Question16](./part1b-question16.js)
+17) [2, 4, 6]
+    The for loop loops through the numbers in the input array and pushes to the answer array newArr the result of calling the callback function on each number in the input array.  
+    The callback function doSomething takes in a number and multiplies it by 2.  
+    So, the function modifyArray is basically multiplying all the numbers in the input array by two.  
+18) [Question18](./part1b-question18.js)
+19) Output:  
+1  
+4  
+3  
+2  
